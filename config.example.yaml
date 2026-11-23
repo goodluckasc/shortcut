@@ -1,0 +1,12 @@
+input_video: input/my_video.mp4
+output_dir: output
+whisper_model: small      # tiny, base, small, medium
+language: auto            # or en, bn, hi, etc.
+subtitles: true
+clips:
+  - start: "00:01:10"
+    end: "00:01:55"
+    name: clip1
+  - start: "00:05:30"
+    end: "00:06:10"
+    name: clip2
